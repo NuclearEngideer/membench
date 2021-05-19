@@ -11,7 +11,7 @@
 #define SAMPLE    10
 #define CACHE_MIN (1024)
 // writes 2KB to 1GB to memory
-#define CACHE_MAX (1024*1024*512)
+#define CACHE_MAX (1024*1024*256)
 #define TIME_DIF_TO_NS(s,f) \
     ((f.tv_sec-s.tv_sec)*1000000000.0 + (f.tv_nsec-s.tv_nsec))
 
